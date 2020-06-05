@@ -5,8 +5,12 @@
     outline: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    font-family: sans-serif, arial;
+    font-family: 'PT Sans', sans-serif;
 }
 
 a {
@@ -18,17 +22,83 @@ ol {
     list-style: none;
 }
 
-img {
-    cursor: pointer;
-    border: 0;
-}
-
-p {
-    line-height: 150%;
-}
-
-.clear {
-    overflow: hidden;
-}
-
 /*basic startup end*/
+/*header-part design start*/
+.header-part {
+    background: #fcdb00;
+    padding-top: 10px;
+}
+
+.menu ul li a {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700 !important;
+    font-size: 22px;
+    color: #010101 !important;
+}
+
+.menu ul li {
+    margin-right: 30px;
+}
+
+/*header-part design end*/
+/*slider-part design start*/
+.slider-area {
+    background: #fcdb00;
+    padding-top: 70px;
+    padding-bottom: 108px;
+}
+
+.inspire-part {
+    padding-top: 70px;
+    padding-left: 20px;
+}
+
+.inspire-part h2 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    padding-bottom: 15px;
+}
+
+.inspire-part h4 {
+    font-family: 'PT Sans', sans-serif;
+    width: 80%;
+    font-size: 22px;
+    padding-bottom: 24px;
+}
+
+.inspire-part p {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 16px;
+    width: 90%;
+    padding-bottom: 40px;
+}
+
+.icons {
+    font-size: 45px;
+    color: #010101;
+    padding-right: 15px;
+}
+
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.carousel-indicators li:hover {
+    background-color: black;
+}
+
+.carousel-indicators li: active {
+    background-color: black;
+}
+
+.carousel-indicators {
+    bottom: -100px;
+}
+
+/*slider-part design end*/
+/*header-part design end*/
