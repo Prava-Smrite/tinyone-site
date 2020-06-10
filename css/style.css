@@ -4,42 +4,34 @@
     padding: 0;
     outline: 0;
 }
-
 html {
     scroll-behavior: smooth;
 }
-
 body {
     font-family: 'PT Sans', sans-serif;
 }
-
 a {
     text-decoration: none;
 }
-
 ul,
 ol {
     list-style: none;
 }
-
 /*basic startup end*/
 /*header-part design start*/
 .header-part {
     background: #fcdb00;
     padding-top: 10px;
 }
-
 .menu ul li a {
     font-family: 'PT Sans', sans-serif;
     font-weight: 700 !important;
     font-size: 22px;
     color: #010101 !important;
 }
-
 .menu ul li {
     margin-right: 30px;
 }
-
 /*header-part design end*/
 /*slider-part design start*/
 .slider-area {
@@ -47,58 +39,194 @@ ol {
     padding-top: 70px;
     padding-bottom: 108px;
 }
-
 .inspire-part {
     padding-top: 70px;
-    padding-left: 20px;
+    padding-left: 0px;
 }
-
 .inspire-part h2 {
     font-family: 'PT Sans', sans-serif;
     font-weight: 700;
     font-size: 32px;
     padding-bottom: 15px;
 }
-
 .inspire-part h4 {
     font-family: 'PT Sans', sans-serif;
     width: 80%;
     font-size: 22px;
     padding-bottom: 24px;
 }
-
 .inspire-part p {
     font-family: 'PT Sans', sans-serif;
     font-weight: 400;
     line-height: 20px;
     font-size: 16px;
-    width: 90%;
+    width: 93%;
     padding-bottom: 40px;
 }
-
-.icons {
+.inspire-icons {
     font-size: 45px;
     color: #010101;
     padding-right: 15px;
 }
-
 .carousel-indicators li {
     width: 15px;
     height: 15px;
     border-radius: 50%;
+    background-color: #0d0d0d;
 }
-
 .carousel-indicators li:hover {
     background-color: black;
 }
-
-.carousel-indicators li: active {
+.carousel-indicators li:active {
     background-color: black;
 }
-
 .carousel-indicators {
     bottom: -100px;
 }
-
 /*slider-part design end*/
-/*header-part design end*/
+/*features-part design start*/
+.features-area {
+    padding-bottom: 30px;
+}
+.title {
+    padding: 95px 0px 75px 0px;
+}
+.title h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+    padding-bottom: 5px;
+}
+.title p {
+    text-align: center;
+    padding: 0px 9%;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 130%;
+}
+.feature-text h3 {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'PT Sans', sans-serif;
+    text-transform: capitalize;
+}
+.feature-text p {
+    font-size: 16px;
+    padding-right: 20%;
+    font-family: 'PT Sans', sans-serif;
+}
+.feas-all {
+    padding-bottom: 50px;
+}
+.feas-2nd-all {
+    padding-bottom: 45px;
+}
+/*features-part design end*/
+/*keep in design start*/
+.keepin-part {
+    background: #010101;
+}
+.keep-title {
+    padding: 95px 0px 40px 0px;
+}
+.keep-title h2 {
+    text-align: center;
+    color: #fcdb00;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+    padding-bottom: 5px;
+}
+.keep-title p {
+    text-align: center;
+    padding: 0px 8%;
+    color: #898989;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 130%;
+}
+.custom-form {
+    padding-left: 64px;
+}
+.form-inline .form-design {
+    display: inline-block;
+    width: 610px;
+    height: 45px;
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+}
+.btn-custom {
+    background-color: #fcdb00;
+    border-color: #fcdb00;
+    color: black;
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    width: 134px;
+    height: 45px;
+}
+.btn-custom:hover {
+    background-color: black;
+    border-color: #fcdb00;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    width: 134px;
+    height: 45px;
+}
+.form-part {
+    padding-bottom: 75px;
+}
+.icons {
+    color: #000000;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 6px;
+    padding-left: 7px;
+}
+.icon-part ul li {
+    width: 45px;
+    height: 45px;
+    background: #fcdb00;
+    border-radius: 12%;
+}
+.icon-part ul .icon-list {
+    margin-right: 22px;
+}
+.whole-icon {
+    padding-left: 392px;
+}
+/*keep in design end*/
+/*footer design start*/
+.footer-part {
+    background: #010101;
+    padding-top: 130px;
+    padding-bottom: 90px;
+}
+.address-part p {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+}
+.address-part .place {
+    margin-bottom: .5rem;
+}
+.address-part .gmail {
+    margin-bottom: .5rem;
+}
+.footer-part ul {
+    margin-left: 28px;
+}
+.footer-part ul a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+/*footer design end*/
+/* font-family: 'PT Sans', sans-serif; */

@@ -1,30 +1,439 @@
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-    
-
+@media (min-width: 480px) and (max-width: 575.98px) {
+    .slider-area {
+        padding-top: 0px;
+        padding-bottom: 55px;
+    }
+    .inspire-part {
+        padding-top: 30px;
+        text-align: center;
+        padding-bottom: 0px;
+    }
+    .inspire-part h4 {
+        font-family: 'PT Sans', sans-serif;
+        width: 96%;
+        font-size: 16px;
+        padding-bottom: 3px;
+    }
+    .inspire-part h2 {
+        font-size: 32px;
+        padding-bottom: 0px;
+    }
+    .inspire-part p {
+        font-size: 13px;
+        width: 92%;
+        padding-bottom: 8px;
+        margin-left: 16px;
+    }
+    .inspire-part ul {
+        margin-left: 2%;
+        margin-bottom: 32px;
+    }
+    .tab-part {
+        padding-left: 140px;
+    }
+    .tab-part img {
+        width: 55%;
+    }
+    .carousel-indicators {
+        bottom: -65px;
+    }
+    .features-area {
+        padding-bottom: 0px;
+    }
+    .title {
+        padding: 33px 0px 25px 0px
+    }
+    .title h2 {
+        text-align: center;
+        font-size: 28px;
+    }
+    .title p {
+        font-size: 17px;
+    }
+    .feature-all {
+        text-align: center;
+    }
+    .img-custo img {
+        padding-bottom: 10px;
+    }
+    .feature-text p {
+        font-size: 15px;
+        margin-left: 9%;
+        width: 100%;
+    }
+    .feas-all {
+        padding-bottom: 0px;
+    }
+    .feas-2nd-all {
+        padding-bottom: 33px;
+    }
+    .keep-title {
+        padding: 50px 0px 25px 0px;
+    }
+    .keep-title h2 {
+        font-size: 28px;
+    }
+    .keep-title p {
+        font-size: 16px;
+    }
+    .form-part {
+        padding-bottom: 35px;
+    }
+    .custom-form {
+        padding-left: 44px;
+    }
+    .form-inline .form-design {
+        width: 274px;
+        height: 36px;
+        font-size: 16px;
+        margin-right: 10px;
+    }
+    .btn-custom {
+        font-size: 15px;
+        width: 80px;
+        height: 36px;
+    }
+    .btn-custom:hover {
+        font-size: 15px;
+        width: 80px;
+        height: 36px;
+    }
+    .whole-icon {
+        padding-left: 100px;
+    }
+    .icon-part ul .icon-list {
+        margin-right: 15px;
+    }
+    .icon-part ul li {
+        width: 40px;
+        height: 40px;
+        background: #fcdb00;
+        border-radius: 12%;
+    }
+    .icons {
+        font-size: 30px;
+    }
+    .footer-part {
+        padding-top: 52px;
+        padding-bottom: 25px;
+        padding-left: 25px;
+    }
+    .address-part p {
+        font-size: 13px;
+    }
+    .address-part .mobile-no {
+        font-size: 12px;
+    }
+    .footer-part ul a {
+        font-size: 13px;
+    }
 }
-
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) { 
-    
-
- }
-
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .slider-area {
+        padding-top: 0px;
+        padding-bottom: 55px;
+    }
+    .inspire-part {
+        padding-top: 35px;
+        text-align: center;
+        padding-bottom: 0px;
+    }
+    .inspire-part h4 {
+        font-family: 'PT Sans', sans-serif;
+        width: 96%;
+        font-size: 21px;
+        padding-bottom: 3px;
+    }
+    .inspire-part p {
+        font-size: 16px;
+        width: 100%;
+        padding-bottom: 25px;
+    }
+    .inspire-part ul {
+        margin-left: 2%;
+        margin-bottom: 32px;
+    }
+    .tab-part {
+        padding-left: 155px;
+    }
+    .tab-part img {
+        width: 55%;
+    }
+    .carousel-indicators {
+        bottom: -60px;
+    }
+    .features-area {
+        padding-bottom: 0px;
+    }
+    .title {
+        padding: 33px 0px 25px 0px
+    }
+    .title p {
+        font-size: 17px;
+    }
+    .feature-all {
+        text-align: center;
+    }
+    .img-custo img {
+        padding-bottom: 10px;
+    }
+    .feature-text p {
+        font-size: 15px;
+        margin-left: 9%;
+        width: 100%;
+    }
+    .feas-all {
+        padding-bottom: 0px;
+    }
+    .feas-2nd-all {
+        padding-bottom: 33px;
+    }
+    .keep-title {
+        padding: 50px 0px 25px 0px;
+    }
+    .keep-title h2 {
+        font-size: 28px;
+    }
+    .keep-title p {
+        font-size: 17px;
+    }
+    .form-part {
+        padding-bottom: 35px;
+    }
+    .custom-form {
+        padding-left: 32px;
+    }
+    .form-inline .form-design {
+        width: 295px;
+        height: 38px;
+    }
+    .btn-custom {
+        height: 38px;
+    }
+    .btn-custom {
+        font-size: 17px;
+        font-weight: 707;
+        width: 104px;
+        height: 38px;
+    }
+    .btn-custom:hover {
+        font-size: 17px;
+        font-weight: 707;
+        width: 104px;
+        height: 38px;
+    }
+    .whole-icon {
+        padding-left: 144px;
+    }
+    .icon-part ul .icon-list {
+        margin-right: 15px;
+    }
+    .icon-part ul li {
+        width: 40px;
+        height: 40px;
+        background: #fcdb00;
+        border-radius: 12%;
+    }
+    .icons {
+        font-size: 30px;
+    }
+    .footer-part {
+        padding-top: 80px;
+        padding-bottom: 50px;
+        padding-left: 30px;
+    }
+    .address-part p {
+        font-size: 12px;
+    }
+    .footer-part ul a {
+        font-size: 12px;
+    }
+}
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-    
-
- }
-
+    .slider-area {
+        padding-top: 30px;
+        padding-bottom: 60px;
+    }
+    .inspire-part {
+        padding-top: 0px;
+        text-align: center;
+    }
+    .inspire-part h2 {
+        padding-bottom: 5px;
+    }
+    .inspire-part h4 {
+        width: 69%;
+        margin-left: 15%;
+        padding-bottom: 5px;
+    }
+    .inspire-part p {
+        margin-left: 3%;
+        padding-bottom: 10px;
+    }
+    .inspire-part ul {
+        margin-left: 2%;
+        margin-bottom: 20px;
+    }
+    .tab-part {
+        padding-left: 215px;
+    }
+    .tab-part img {
+        width: 55%;
+    }
+    .carousel-indicators {
+        bottom: -66px;
+    }
+    .features-area {
+        padding-bottom: 0px;
+    }
+    .title {
+        padding: 33px 0px 25px 0px
+    }
+    .feature-all {
+        text-align: center;
+    }
+    .img-custo img {
+        padding-bottom: 10px;
+    }
+    .feature-text p {
+        font-size: 18px;
+        margin-left: 9%;
+        width: 100%;
+    }
+    .feas-all {
+        padding-bottom: 0px;
+    }
+    .feas-2nd-all {
+        padding-bottom: 33px;
+    }
+    .keep-title {
+        padding: 50px 0px 25px 0px;
+    }
+    .keep-title h2 {
+        font-size: 28px;
+    }
+    .keep-title p {
+        font-size: 17px;
+    }
+    .form-part {
+        padding-bottom: 35px;
+    }
+    .custom-form {
+        padding-left: 56px;
+    }
+    .form-inline .form-design {
+        width: 398px;
+        height: 40px;
+    }
+    .btn-custom {
+        height: 40px;
+    }
+    .btn-custom:hover {
+        height: 40px;
+    }
+    .whole-icon {
+        padding-left: 210px;
+    }
+    .icon-part ul li {
+        width: 40px;
+        height: 40px;
+    }
+    .icons {
+        font-size: 30px;
+    }
+    .footer-part {
+        padding-top: 80px;
+        padding-bottom: 70px;
+        padding-left: 55px;
+    }
+    .address-part p {
+        font-size: 14px;
+    }
+    .footer-part ul a {
+        font-size: 14px;
+    }
+}
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-
-
-
+    .menu ul li {
+        margin-right: 10px;
+    }
+    .slider-area {
+        padding-top: 45px;
+        padding-bottom: 100px;
+    }
+    .inspire-part {
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    .inspire-part h2 {
+        font-size: 31px;
+    }
+    .inspire-part h4 {
+        width: 101%;
+    }
+    .inspire-part p {
+        width: 116%;
+    }
+    .inspire-icons {
+        font-size: 43px;
+        padding-right: 15px;
+    }
+    .tab-part {
+        width: 70%;
+        margin-left: 20px;
+    }
+    .title {
+        padding: 60px 0px 45px 0px;
+    }
+    .title p {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .img-custo {
+        width: 30px;
+    }
+    .feature-all {
+        padding-left: 20px;
+    }
+    .feature-text p {
+        padding-right: 6%;
+    }
+    .feature-text h3 {
+        font-size: 20px;
+    }
+    .keep-title {
+        padding: 50px 0px 25px 0px;
+    }
+    .keep-title p {
+        font-size: 19px;
+    }
+    .custom-form {
+        padding-left: 53px;
+    }
+    .form-part {
+        padding-bottom: 45px;
+    }
+    .form-inline .form-design {
+        width: 485px;
+    }
+    .whole-icon {
+        padding-left: 334px;
+    }
+    .icons {
+        padding-left: 7px;
+    }
+    .footer-part {
+        padding-top: 100px;
+        padding-bottom: 59px;
+        padding-left: 25px;
+    }
+    .footer-part ul a {
+        font-size: 15px;
+    }
 }
-
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-    
-    
-}
+@media (min-width: 1200px) {}
